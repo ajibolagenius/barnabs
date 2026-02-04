@@ -1,16 +1,74 @@
-# React + Vite
+# My First React Class Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my first React class! This project is a simple React application built using Vite, designed to help beginners learn the fundamentals of React.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a starter template for learning React. It includes basic setup with Vite for fast development and hot module replacement (HMR).
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (version 14 or higher recommended)
+- npm or yarn package manager
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+This will start the Vite development server. Open your browser and go to `http://localhost:5173` to see the application running.
+
+### Building for Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` folder.
+
+## Course Notes
+
+Check out the `public/notes/` folder for comprehensive course outlines and weekly topics covering:
+
+- React Fundamentals
+- State and Props
+- Lifecycle Methods
+- Forms and Styling
+- Routing
+- Advanced React Concepts
+
+## Technologies Used
+
+- React 18
+- Vite
+- ESLint for code linting
+
+## Learning Objectives
+
+By the end of this class, you should be able to:
+
+- Set up a React project
+- Create and manage React components
+- Handle state and props
+- Implement event handlers
+- Style React applications
+- Fetch and display data
+
+Happy coding! 🚀
