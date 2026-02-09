@@ -1,18 +1,20 @@
-import { useState } from 'react';
+import { useState } from "react";
+
 
 export default function Counter() {
+    // Initialize state to 0
     const [count, setCount] = useState(0);
 
-    const increment = () => {
-        // Best practice: use a functional update for logic based on previous state
-        setCount(prevCount => prevCount + 1);
-    };
+    // Event Handler Function
+    const handleIncrement = (e) => {
+        setCount(count + 2)
+        console.log(`Target: ` + e.target.value);
+    }
 
     return (
-        <div className="counter-box">
-            <h3>Count: {count}</h3>
-            <button onClick={increment}>Add +1</button>
-            <button onClick={() => setCount(0)}>Reset</button>
+        <div style={{ border: '1px solid #ccc', padding: '20px', margin: '10px' }}>
+            <h3>Current Count: {count}</h3>
+            <button onClick={handleIncrement}>Increment</button>
         </div>
-    );
+    )
 }
