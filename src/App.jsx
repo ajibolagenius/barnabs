@@ -7,9 +7,13 @@ import Card from './components/Card'
 import Counter from './components/Counter'
 import Button from './components/Button'
 import TodoList from './components/TodoList'
+import Notifications from './components/Notifications'
+import Welcome from './components/Welcome'
+import Menu from './components/Menu'
+import SimpleForm from './components/SimpleForm'
+import SignupForm from './components/SignupForm'
 
 function App() {
-    const [count, setCount] = useState(0)
 
     return (
         <>
@@ -22,8 +26,8 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
-
-
+            <hr />
+            <Welcome isLoggedIn={true} />
             <hr />
             <Greeting />
             <hr />
@@ -53,6 +57,17 @@ function App() {
 
 
             <br /><br /><br /><br /><br />
+            <hr />
+            <Notifications unreadMessages={4} />
+            <hr />
+            <Menu />
+            <hr />
+            <SimpleForm />
+            <SignupForm />
+
+
+            <br /><br /><br /><br /><br />
+
         </>
     )
 }
