@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.navlink {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: salmon;
+    text-decoration: underline;
+}
